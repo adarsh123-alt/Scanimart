@@ -6,5 +6,9 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: './', // 👈 ye line add karo
+  base: './',
+  preview: {
+    port: 10000,
+    host: '0.0.0.0',
+  },
 });
