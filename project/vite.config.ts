@@ -6,7 +6,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: './',
+  base: './', // 👈 important for Render static hosting
   preview: {
     port: 10000,
     host: '0.0.0.0',
